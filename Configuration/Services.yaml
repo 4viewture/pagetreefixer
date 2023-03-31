@@ -1,0 +1,7 @@
+# EXT:pagetreefixer/Configuration/Services.yaml
+services:
+
+  KayStrobach\PageTreeFixer\Command\FixOrphanedPagesCommand:
+    tags:
+      - name: 'console.command'
+        command: 'pagetreefixer:fixorphanedpages'
